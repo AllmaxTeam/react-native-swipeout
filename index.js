@@ -11,11 +11,7 @@ import {
 } from 'react-native';
 
 const style = StyleSheet.create({
-  item: {
-    backgroundColor: 'gray',
-    flexDirection: 'row',
-    marginBottom: 2,
-  },
+
 });
 
 export default class SwipeOut extends React.Component {
@@ -99,11 +95,10 @@ export default class SwipeOut extends React.Component {
     itemId: React.PropTypes.number.isRequired,
   };
 
-  render(): ReactComponent {
+  render() {
     return (
       <Animated.View
         style={[
-          style.item,
          {
           transform: [
             {translateX: this.state._animatedValue},
