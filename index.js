@@ -10,11 +10,9 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 
-import { Colors } from '../styles/const';
-
 const style = StyleSheet.create({
   item: {
-    backgroundColor: Colors.ntButtonGray,
+    backgroundColor: 'gray',
     flexDirection: 'row',
     marginBottom: 2,
   },
